@@ -1,0 +1,122 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Self-Guided Skills Webpage - Robert Blake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css">
+    <style>
+        code {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="Jumbotron">Self-Guided Skill Project - Robert Blake</h1>
+        <nav>
+            <ul id="menu">
+                <li class="top"><a href="../../index.html">Home</a></li>
+                <li class="top"><a href="../../Homework/WebpageHomework/index.html">Homework</a></li>
+                <li class="top"><a href="../../Projects/PittsburghDataProject/index.html" >Dataset project</a></li>
+                <li class="top"><a href="../../Projects/SkillsProject/index.html" >Skills Project</a></li>
+                <li class="top"><a href="https://tobor440.github.io/PDC-Spring-2019-Group-Project/" >Group Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div id="content">
+        <h2 tabindex="0">Introduction</h2>
+        <p>In order to improve the standards I follow when I code and to help others improve their own, for my Self-Guided Skill, I chose to learn the Standards for accessibility web content. I doing so, I decided to learn as much as possible of all three major parts of any web development: Writing, Design/Formatting, and Code/Development.</p>
+        <hr />
+        <h2 tabindex="0">Writing</h2>
+        <p>While one may not think that the writing section of a website needs to be any more accessible than it already is, it's actually imperative that it follow numerous guidelines in order to better allow the likes of screenreaders to follow along with it.</p>
+        <h3>Headings</h3>
+        <p>One major piece of writing accessible content is splitting content into headings. Huge, unbroken blocks of text are detrimental to accessibility and fail to provide meaningful distinction and description of what is covered in a given section. The World Wide Web Consortium(W3C) guide on accessiblity says the following about headings:</p>
+        <blockquote>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels. The lower the number, the smaller and more detailed a section.</blockquote>
+        <h3>Image Text</h3>
+        <p>Another essential piece of content that many people don't normally think about is image alt-text. Alt text provides those listening through a screen reader a way to understand the content of the page, even though they cannot see the picture for themselves. Provided below is W3's example of good and bad image usage. In addition, I've added title text to the picture to demonstrate what a good description can look like.</p>
+        <img src="https://i.gyazo.com/8872dced36287c395478d1c6a5ebab55.png" alt="An image from W3's writing guide that explains both the necessecity of alt text and the importance of comprehensive explanations in the text" title="An image from W3's writing guide that explains both the necessecity of alt text and the importance of comprehensive explanations in the text" class="center" />
+        <h3>Staying concise</h3>
+        <p>In order to keep content understandable, it's essential that the writing remain concise. In order to demonstrate this rule, I've done my best to follow it throughout this page. If you look over the page with this in mind, you begin to see it from that perspective. Some other ways to remain concise include:
+            <ul>
+                <li>Using lists where appropriate</li>
+                <li>Adding images to provide additional clarity</li>
+                <li>A glossary for terms the reader may not know</li>
+                <li>Expanding Acronyms on first use</li>
+            </ul>
+        </p>
+        <h3>Other Useful Tips for Writing</h3>
+        <p>While I've done my best to cover the most common accessibility improvements that can be done by writers, there are others as well. Some examples of these include:
+            <ul>
+                <li>Transcribing any video or audio content</li>
+                <li>Providing clear instructions as necessary</li>
+                <li>Making link text meaningful</li>
+            </ul>
+        </p>
+        <hr />        
+        <h2 tabindex="0">Formatting</h2>
+        <p>While writing is essential to any web development—and therefore accessibility—making sure formatting is up to spec is perhaps more important, as helps make sure the user can make use of the writing.</p>
+        <h3>Foreground and Background Color</h3>
+        <p>In order for writing to matter, people need to be able actually read what is written. As such, it is paramount that the "contrast ratio" of the foreground and background color be good enough that all of the letters are clear. A set of examples, from worst to best:</p>
+        <ul>
+            <li style="color: lightgray">This is very hard to read</li>
+            <li style="color: darkgray">This is a little easier to read, but still very challenging</li>
+            <li style="color: gray">This is getting better</li>
+            <li style="color: dimgray">This is close, but still might cause some trouble</li>
+            <li style="color: black">This is easy to read</li>
+        </ul>
+        <h3>Interactive Elements</h3>
+        <p>Because there are people who have to navigate almost entirely—if not entirely—by keyboard, in addition to other people who are vision impaired, it is imperative that any interactive elements like buttons and links be easy to identify. Some recommended methods for this include changing the appearance of links on <a href="https://www.w3.org/TR/WCAG20-TECHS/C15.html">mouse over, keyboard focus, and touch-screen activation.</a> In order to implement this, the lettering of every link on this page becomes bold when selected with a keyboard.</p>
+        <h3>Navigation</h3>
+        <p>In order to keep things easily understandable, especially for users who experiences cognitive difficulties, another guideline is that the method of navigation and the location of the navigation method remain consistent throughout the site. In order to retain this consistency and show it as an example, I've set the header and navigation bar to be the same across every page on the site. Other recommended things to have on sites to improve their accessibility include the addition of a search option and adding additional ways to navigate the site.</p>
+        <h3>Autoplay Content</h3>
+        <p>Because of the nature of autoplay content, any instance of it should have clearly displayed pause and mute buttons.</p>
+        <hr />        
+        <h2 tabindex="0">Coding</h2>
+        <p>While the formatting and writing of the page make sure that the content itself is capable of being used in all sorts of accessiblity-related scenarios, the underlying code is what makes that work able to function at all. Many of the unseen ways that accessible webpages work is through the behind-the-scenes work done by the coders. As such, it is imperative that they follow the guidelines set forth, or else many of the tools used by people who require the accessibility will be null and void because of bad coding practices.</p>
+        <h3>Labeling Form Items</h3>
+        <p>As a solid rule of thumb, every single form item should have a <code>&lt;label&gt;</code> element and an <code>id</code> attribute linked to that element. This provides clarity in just about every case. W3's example:</p>
+        <img src="https://i.gyazo.com/caf138dddc52533f34480791c386cfac.png" alt="A rendered image of a form item with proper labeling and a coding exerpt" class="center" style="width:60%"/>
+        <h3>Language</h3>
+        <p>The primary language used in every page should be marked as part of the <code>lang</code> attribute associated with the opening <code>&lt;html&gt;</code> tag in each webpage. In addition, any changes to the language of a page should be specified similarly in those given elements.</p>
+        <h3>Mark-up</h3>
+        <p>HTML provides coders with a wide range of tags to be used to provide clarity and meaning, as well as to assist in formatting, such as the <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;nav&gt;</code>, and other similar style tags.</p>
+        <h3>Helping the User Avoid Mistakes</h3>
+        <p>The combination of clear instructions, helpful feedback, and notifications can be of great assistance to any user. It's also important to be as forgiving as possible, and make it so that your code accepts as broad a range of input as possible (while remaining secure), to prevent misunderstandings regarding formatting. In addition, any errors should provide as much helpful feedback as possible in order to better facilite the user finding the root of the problem.</p>
+        <h3>Coding Order Reflecting Reading Order</h3>
+        <p>Make sure the order of the code within follows a logical order, generally the order the contents would be read in. The recommended way of checking this is to remove any and all CSS styling and then checking that the order makes sense. Sequence matters, especially to things like screen readers, where they rely on the order to get the data in its proper order, instead of based on the visuals.</p>
+        <h3>Write Adaptive Code</h3>
+        <p>We live in a world with a broad range of devices capable of accessing the internet, and as a result, you need to account for the fact that there are screens both large and small that may access your site. As such, it's essential that you make sure that your code adapts based upon the screen size in use.</p>
+        <h3>Use WAI-ARIA</h3>
+        <p>Because of the increased use of client side scripts to change the content of a page—thereby making Rich Internet Applications (RIA)—the W3C created Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA) to provide guidelines and tools to assist in guaranteeing all content is accessible to a wide range of users. This includes things like providing labels such as <code>aria-expanded</code> and <code>role</code></p>
+        <h3>Make Interactive Elements Keyboard Accessible</h3>
+        <p>Because there's a large set of people who are unable to properly use a mouse, you should always make any element that can be interacted with (such as buttons) capable of being used by people who only use keyboards. For buttons, you can do this easily by adding events on keydown in addition to on click. For elements that normally wouldn't be focused by a keyboard, you can use <code>tabindex="0"</code></p>
+        <h3>Avoid CAPTCHA</h3>
+        <p>CAPTCHAs, despite being designed to keep out bots and spammers, can oftentimes result in difficulties for a broad range of people. As a result, it's generally ill-advised to use them. Instead, it's recommended to use automatic detection or interface interactions.</p>
+        <hr />        
+        <h2 tabindex="0">Advanced Coding 1: CSS</h2>
+        <h3>Headings</h3>
+        <p>While headings have been repeatedly stated to be important, it's worth noting that they can become less valuable to the user if they don't look like headings to the user. As such, it is vital that you make sure any and all headers maintain their appearance of being a header whenever modifying their appearance via CSS.</p>
+        <h3>Emphasis</h3>
+        <p>Inline mark-up has the ability to emphasize certain elements of text. While slight changes such as changing the color of the emphasized text can be acceptable, the standards of bolding and/or italicizing should rarely be modified, as the change can result in confusion on the part of the user.</p>
+        <h3>Abbreviations</h3>
+        <p>When writing abbreviations, you can use the in-line element <code>&lt;abbr&gt;</code> to show abbreviations, acronyms, and initialisms. When doing so, it is generally recommended that you add the <code>title</code> attribute to the element to specify the full name of the acronym in question.</p>
+        <h3>Hidden Items</h3>
+        <p>Some items may be hidden from sight for the standard user, but those who use screenreaders, none of that matters. Instead, it is more important to them that the content is in an understandable and readable order for the screenreaders. As such, it's also important that you don't use <code>visibility:hidden</code> or <code>display:none</code> unless you want content hidden from those users as well.</p>
+        <hr />        
+        <h2 tabindex="0">Advanced Coding 2: Javascript</h2>
+        <p>Javascript is an increasily large part of website design, and oftentimes, it can be both good and bad. While there's no rule saying you should make everything 100% accessible, it's worth at least trying to make things as accessible as possible.</p>
+        <h3>Limit Javascript Use</h3>
+        <p>There are cases where entire pages are generated from Javascript, all the way donw to the base HTML and CSS. These cases should generally be avoided, as they can cause all kinds of screenreaders problems.</p>
+        <h3>Unobtrusive Javascript</h3>
+        <p>Javascript should, by and large, exist on the page to enhance functionality, not build it. While there are certainly cases where it is acceptable to do so, and that is recognized, the coder should first attempt to minimize the impact to the structure the javascript has.</p>
+        <h3>Use Javascript to Give Errors</h3>
+        <p>As mentioned in the design section, the user should be able to learn what they did wrong if something goes wrong. This is one of the scenarios where Javascript shines due to its close relationship with any buttons and many other elements that exist on sites.</p>
+        <h3></h3>
+    </div>
+</body>
+</html> 

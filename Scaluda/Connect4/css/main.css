@@ -1,0 +1,42 @@
+td {
+    border: 3px solid blue;
+
+}
+#board {
+    background: gold;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scores {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Header {
+    clear: both;
+}
+
+#Player1 {
+    float: left;
+}
+#Player2 {
+    float: right;
+}
+
+#TokenSpace {
+    clear: both;
+}
+
+#P1Tokens {
+    float: left;
+}
+
+#P2Tokens {
+    float: right;
+}
+
+#Timer{
+    text-align: center;
+}
