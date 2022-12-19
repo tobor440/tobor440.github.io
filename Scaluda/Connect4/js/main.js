@@ -25,7 +25,7 @@ game = () => {
     document.getElementById("Player2").innerHTML = player2Name;
     updateTokens(1);
     updateTokens(2);
-    alert("Click ok to begin " + (currentTurn === 1 ? player1Name : player2Name) + "'s turn");
+    alert(`Click ok to begin ${(currentTurn === 1 ? player1Name : player2Name)}'s turn`);
     setInterval(updateTime, 1000);
 
     fillTable();
@@ -113,7 +113,7 @@ dropToken = cellName => {
     }
 
     currentTurn === 1 ? currentTurn = 2 : currentTurn = 1;
-    alert("Click ok to begin " + currentTurn === 1 ? player1Name : player2Name + "'s turn");
+    alert(`Click ok to begin ${(currentTurn === 1 ? player1Name : player2Name)}'s turn`);
     
 }
 
